@@ -1,5 +1,5 @@
 
-# MYEMAIL: Email Categorizer & Composer
+# MyEmail: Email Categorizer & Composer
 
 A Streamlit-based application for categorizing emails into predefined categories and composing new ones. The project uses machine learning to categorize emails and allows users to send emails directly from the app.
 
@@ -33,8 +33,8 @@ pip install -r requirements.txt
 
 ### 1. **Gmail Configuration**
 
-- Enable IMAP for your Gmail account:
-  - Go to Gmail settings -> See all settings -> Forwarding and POP/IMAP -> Enable IMAP.
+- Enable Gmail API for your Google Console Project:
+  - Go to Google Console -> Create Project -> APIs & Services -> Library -> Search and enable Gmail API -> Credentials -> Configure OAuth Consent Screen -> Create and Download the credential
 - Generate an **App Password**:
   - Go to your Google Account -> Security -> App Passwords -> Generate a password for the application.
 
@@ -63,7 +63,6 @@ streamlit run app/app.py
 - **Categorize Emails**: View categorized emails in predefined tabs.
 - **Compose Emails**: Use the floating pencil button to compose and send emails.
 - **Auto-Fetch**: Automatically fetches emails every minute when logged in.
-- **Refresh Emails**: Click the refresh button to load newly received emails.
 
 ---
 
@@ -120,4 +119,4 @@ This project is open-source and available under the MIT License.
 ---
 
 ## **Contact**
-For questions or contributions, please contact **[Your Email/Name]**.
+For questions or contributions, please contact **[nmsudharsan49@gmail.com]**.
