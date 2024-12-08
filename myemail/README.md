@@ -19,7 +19,7 @@ A Streamlit-based application for categorizing emails into predefined categories
 ### 1. **Clone the Repository**
 ```bash
 git clone <repository_url>
-cd MYEMAIL
+cd myemail
 ```
 
 ### 2. **Install Dependencies**
