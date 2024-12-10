@@ -2,3 +2,4 @@
 dataset/
 *.py
 *.html
+__pycache__
